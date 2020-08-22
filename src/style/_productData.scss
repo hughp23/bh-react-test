@@ -1,0 +1,8 @@
+.products-container {
+  flex-wrap: wrap;
+  .product-card {
+    border: blue 2px solid;
+    width: 15vw;
+    height: 20vh;
+  }
+}

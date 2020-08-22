@@ -1,0 +1,23 @@
+.results-filter-container {
+  .side-bar-menu {
+    border: red 2px solid;
+    width: 20vw;
+  }
+
+  .search-results {
+    border: green 2px solid;
+    width: 80vw;
+  }
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-box-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

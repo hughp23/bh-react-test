@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  padding: 0 3.5vw;
+
+  li {
+    padding: 1vh 0;
+    button {
+      width: 75%;
+      border-radius: 1vh;
+      border: 1px solid grey;
+      padding: 0.5vh;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    .checked {
+      background: purple;
+    }
+  }
+}

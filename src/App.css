@@ -1,71 +1,71 @@
 *:focus {
-	outline: none;
+  outline: none;
 }
 
 body {
-	margin: 0px;
-	background: #ececec;
-	font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #ececec;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #root,
 .main-container {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-	display: flex;
-	background: #fff;
+  display: flex;
+  background: #fff;
 }
 
 h1 {
-	margin: 20px auto;
-	font-weight: 900;
-	font-size: 20px;
-	color: #14385f;
-	text-transform: uppercase;
+  margin: 20px auto;
+  font-weight: 900;
+  font-size: 2.5vh;
+  color: #14385f;
+  text-transform: uppercase;
 }
 
 .search-bar-container {
-	display: flex;
-	background: #14385f;
-	padding: 0 20px;
+  display: flex;
+  background: #14385f;
+  padding: 0 20px;
 }
 
 form {
-	display: flex;
-    width: 100%;
-    max-width: 450px;
-    margin: 20px auto
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  margin: 20px auto;
 }
 
-form>.search-bar {
-	border: none;
-	width: 100%;
-	height: 35px;
-	margin: 0 10px 0 0;
-    padding: 0 0 0 10px;
+form > .search-bar {
+  border: none;
+  width: 100%;
+  height: 35px;
+  margin: 0 10px 0 0;
+  padding: 0 0 0 10px;
 }
 
-form>button {
-	cursor: pointer;
-	border: none;
-	height: 35px;
-	padding: 0 20px;
-	background: #7ab93b;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 600;
-	border-radius: 20px;
+form > button {
+  cursor: pointer;
+  border: none;
+  height: 35px;
+  padding: 0 20px;
+  background: #7ab93b;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 20px;
 }
 
-form>button:active {
-	box-shadow: inset -2px 2px 5px -2px rgba(0, 0, 0, 0.5);
+form > button:active {
+  box-shadow: inset -2px 2px 5px -2px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 350px) {
-	h1 {
-		font-size: 30px;
-	}
+  h1 {
+    font-size: 3vh;
+  }
 }
